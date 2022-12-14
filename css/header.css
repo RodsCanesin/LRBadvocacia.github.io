@@ -30,6 +30,8 @@
 .header-menu a {
   color: #575970;
   font-weight: bold;
+  font-family: 'Libre Bodoni', serif;
+  letter-spacing: 1px;
   display: inline-block;
   padding: 16px 0px;
   font-size: 18px;
