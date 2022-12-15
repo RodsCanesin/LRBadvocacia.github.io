@@ -1,0 +1,55 @@
+.atuacao{
+  margin-top: -40px;
+  background-color: #E6E9F1;
+}
+
+.titulo-atuacao{
+  font-family: "Libre Bodoni", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  color: #3B4061;
+  text-align: center;
+  padding: 75px 0px 75px 0px;
+  margin: 0 auto;
+}
+
+.container ul{
+  display: flex;
+  margin-top: 0px;
+  margin-left: 450px;
+  margin-right: 450px;
+  gap: 266px;
+  padding: 0 20px 20px 20px;
+  max-width: 1600px;
+}
+
+.atuacao li{
+  min-width: 280px;
+}
+
+.container a{
+  display: block;
+}
+
+.container h3{
+  text-decoration: none;
+  color: #3B4061;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  width: 217px;
+  text-align: center;
+}
+
+.img-atuacao{
+  background-color: #3B4061;
+  height: 217px;
+  width: 217px;
+  border-radius: 100%;
+}
+
+.img-atuacao img{
+  margin: 69px 59px 68px 58px;
+}
