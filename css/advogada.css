@@ -1,0 +1,41 @@
+.advogada{
+  background-color: #E6E9F1;
+  padding-bottom: 80px;
+}
+
+.advogada h2{
+  font-family: "Libre Bodoni", serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  color: #3B4061;
+  text-align: center;
+  padding: 80px 0px 30px 0px;
+  margin: 0 auto;
+}
+
+.lana{
+  display: block;
+  margin: 0px auto 15px auto;
+}
+
+.apresenta-lana h3{
+  display: block;
+  text-align: center;
+  color: #3B4061;
+  font-family: 'Libre Bodoni', serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 0px;
+}
+
+.apresenta-lana h4{
+  display: block;
+  text-align: center;
+  color: #3B4061;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 0px;
+}
