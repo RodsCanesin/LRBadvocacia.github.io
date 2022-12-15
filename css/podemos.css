@@ -1,0 +1,51 @@
+.podemos h2{
+  font-family: "Catamaran", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  color: #3B4061;
+  text-align: center;
+  padding: 80px 0px 30px 0px;
+  margin: 0 auto;
+}
+
+.podemos p{
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #3B4061;
+  text-align: center;
+  padding-bottom: 16px;
+  margin: 0 auto;
+}
+
+.button{
+  display: flex;
+  margin: 43px 500px 53px 500px;
+  gap: 334px;
+}
+
+.link-whats{
+  background-color: green;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  padding: 22px 27.5px;
+  border-radius: 5px;
+}
+
+.agendamento{
+  background-color: #76580B;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  padding: 22px 27.5px;
+  border-radius: 5px;
+}
+
+

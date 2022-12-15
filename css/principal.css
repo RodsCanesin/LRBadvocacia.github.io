@@ -20,9 +20,10 @@
 
 .texto-principal{
   color: #EDE3D1;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
   font-family: 'Catamaran', sans-serif;
   letter-spacing: 0.5px;
   margin-right: 100px;
+  padding-bottom: 40px;
 }
