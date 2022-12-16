@@ -1,0 +1,76 @@
+.footer-bg {
+  background-color: #575970;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 3fr 5fr 4fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-contato h3 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #f2e2d2;
+}
+
+.footer-contato ul {
+  margin-bottom: 32px;
+}
+
+.footer li {
+  margin-bottom: 16px;
+}
+
+.footer-contato{
+  color: #f2e2d2;
+}
+
+.footer-link{
+  color: #f2e2d2;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.footer-link a{
+  text-decoration: none;
+  color: #f2e2d2;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 32px;
+}
+
+.footer-informacoes h3{  
+  font-family: 'Catamaran', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #f2e2d2;
+}
+
+.footer-copy {
+  color: #f2e2d2;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 18px;
+  grid-column: 1/-1;
+  margin-top: 20px;
+}
+
+.container-f{
+  max-width:1200px;
+  padding-left:20px;
+  padding-right:20px;
+  margin-left:auto;
+  margin-right:auto;
+  box-sizing:border-box;
+}
