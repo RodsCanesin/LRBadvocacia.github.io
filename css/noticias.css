@@ -1,0 +1,26 @@
+.titulo-noticias{
+  font-family: "Libre Bodoni", serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  color: #3B4061;
+  text-align: center;
+  padding: 80px 0px 30px 0px;
+  margin: 0 auto;
+}
+
+.noticias{
+ margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 216px;
+  justify-content: center;
+}
+
+.noticias2{
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 216px;
+  justify-content: center;
+}
