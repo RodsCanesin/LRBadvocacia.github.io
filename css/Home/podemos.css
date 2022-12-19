@@ -3,9 +3,9 @@
   font-weight: 500;
   font-size: 48px;
   line-height: 64px;
-  color: #3B4061;
+  color: var(--cor-5);
   text-align: center;
-  padding: 80px 0px 30px 0px;
+  padding: 60px 0px 30px 0px;
   margin: 0 auto;
 }
 
@@ -14,7 +14,7 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 48px;
-  color: #3B4061;
+  color: var(--cor-5);
   text-align: center;
   padding-bottom: 16px;
   margin: 0 auto;
@@ -27,8 +27,8 @@
 }
 
 .link-whats{
-  background-color: green;
-  color: white;
+  background-color: var(--cor-7);
+  color: var(--cor-0);
   font-family: 'Catamaran', sans-serif;
   font-size: 24px;
   line-height: 36px;
@@ -38,8 +38,8 @@
 }
 
 .agendamento{
-  background-color: #76580B;
-  color: white;
+  background-color: var(--cor-6);
+  color: var(--cor-0);
   font-family: 'Catamaran', sans-serif;
   font-size: 24px;
   line-height: 36px;

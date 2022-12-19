@@ -1,6 +1,5 @@
 .atuacao{
-  margin-top: -40px;
-  background-color: #E6E9F1;
+   background-color: var(--cor-1);
 }
 
 .titulo-atuacao{
@@ -8,7 +7,7 @@
   font-weight: 500;
   font-size: 48px;
   line-height: 64px;
-  color: #3B4061;
+  color: var(--cor-5);
   text-align: center;
   padding: 75px 0px 75px 0px;
   margin: 0 auto;
@@ -16,16 +15,11 @@
 
 .container ul{
   display: flex;
-  margin-top: 0px;
-  margin-left: 500px;
-  margin-right: 500px;
+  margin: 0px 500px 20px 500px;
   gap: 300px;
-  padding: 0 20px 20px 20px;
+  padding: 0 20px 75px 20px;
   max-width: 1600px;
-}
-
-.atuacao li{
-  min-width: 280px;
+  justify-content: center;
 }
 
 .container a{
@@ -33,8 +27,7 @@
 }
 
 .container h3{
-  text-decoration: none;
-  color: #3B4061;
+  color: var(--cor-5);
   font-family: 'Catamaran', sans-serif;
   font-weight: 500;
   font-size: 32px;
@@ -44,12 +37,12 @@
 }
 
 .img-atuacao{
-  background-color: #3B4061;
+  background-color: var(--cor-5);
   height: 217px;
   width: 217px;
   border-radius: 100%;
 }
 
 .img-atuacao img{
-  margin: 69px 59px 68px 58px;
+  padding: 69px 59px 68px 58px;
 }

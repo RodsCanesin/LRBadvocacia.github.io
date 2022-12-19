@@ -1,9 +1,14 @@
-@import "./global.css";
-@import "./header.css";
-@import "./intro.css";
-@import "./principal.css";
-@import "./atuacao.css";
-@import "./podemos.css";
-@import "./advogada.css";
-@import "./noticias.css";
-@import "./footer.css";
+@import "./Global/global.css";
+@import "./Global/header.css";
+@import "./Global/footer.css";
+
+/* UTILIDADES */
+@import "./Utilidade/cores.css";
+
+/* HOME */
+@import "./home/intro.css";
+@import "./home/principal.css";
+@import "./home/atuacao.css";
+@import "./home/podemos.css";
+@import "./home/advogada.css";
+@import "./home/noticias.css";

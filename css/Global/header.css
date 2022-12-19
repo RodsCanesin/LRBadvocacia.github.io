@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: #F2EDE2;
+  background-color: var(--cor-3);
 }
 
 .header {
@@ -28,7 +28,7 @@
 }
 
 .header-menu a {
-  color: #575970;
+  color: var(--cor-4);
   font-weight: bold;
   font-family: 'Libre Bodoni', serif;
   letter-spacing: 1px;
@@ -43,7 +43,7 @@
   display: block;
   height: 2px;
   width: 0px;
-  background: #575970;
+  background: var(--cor-4);
   margin-top: 4px;
   transition: 0.3s;
   position: absolute;

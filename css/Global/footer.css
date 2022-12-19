@@ -1,6 +1,5 @@
 .footer-bg {
-  background-color: #575970;
-  margin-top: -40px;
+  background-color: var(--cor-4);
 }
 
 .footer {
@@ -17,7 +16,7 @@
   line-height: 36px;
   font-weight: 700;
   margin-bottom: 24px;
-  color: #f2e2d2;
+  color: var(--cor-8);
 }
 
 .footer-contato ul {
@@ -29,11 +28,11 @@
 }
 
 .footer-contato{
-  color: #f2e2d2;
+  color:var(--cor-8);
 }
 
 .footer-link{
-  color: #f2e2d2;
+  color: var(--cor-8);
   font-size: 24px;
   line-height: 32px;
   font-weight: 400;
@@ -42,7 +41,7 @@
 
 .footer-link a{
   text-decoration: none;
-  color: #f2e2d2;
+  color: var(--cor-8);
 }
 
 .footer-redes {
@@ -56,11 +55,11 @@
   line-height: 36px;
   font-weight: 700;
   margin-bottom: 24px;
-  color: #f2e2d2;
+  color: var(--cor-8);
 }
 
 .footer-copy {
-  color: #f2e2d2;
+  color: var(--cor-8);
   font-family: 'Catamaran', sans-serif;
   font-size: 18px;
   grid-column: 1/-1;

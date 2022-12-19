@@ -1,11 +1,10 @@
 .principal{
-  background-color: #575970;
+  background-color: var(--cor-4);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-top: -5px;
 }
 
 .logo-container{
@@ -13,17 +12,15 @@
 }
 
 .logo-container img{
-  grid-area: 1/1;
   align-self: center;
   margin-left: 100px;
 }
 
 .texto-principal{
-  color: #EDE3D1;
+  color: var(--cor-2);
   font-size: 24px;
   font-weight: 400;
   font-family: 'Catamaran', sans-serif;
   letter-spacing: 0.5px;
   margin-right: 100px;
-  padding-bottom: 40px;
 }
