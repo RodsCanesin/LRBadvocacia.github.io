@@ -48,3 +48,17 @@
   width: 60%;
 }  
 }
+
+@media (max-width:600px) {
+  .principal{
+    display: inline-block;
+  }
+
+  .logo-container img{
+    margin: 0 auto;
+  }
+
+  .texto-principal{
+    margin: 25px;
+  }
+}

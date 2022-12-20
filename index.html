@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -19,7 +19,7 @@
       <a href="./">
         <img src="./img/Lana_FINAL-Horizontal 1.svg" alt="Lana Beatriz Rocha">
       </a>
-      <nav aria-label="primaria">
+      <nav id="menu" aria-label="primaria">
         <ul class="header-menu">
           <li><a href="./home.html">Home</a></li>
           <li><a href="./sobre.html">Sobre</a></li>
@@ -174,7 +174,16 @@
     </div>
 
   </footer>
-
+  <script>
+    function clickMenu() {
+      if (menu.style.display == 'block') {
+        menu.style.display = 'none'
+      }
+      else {
+        menu.style.display = 'block'
+      }
+    }    
+  </script>
 </body>
 
 

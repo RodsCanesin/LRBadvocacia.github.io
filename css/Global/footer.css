@@ -81,3 +81,29 @@
   line-height: 24px;
 }
 }
+
+@media (max-width:600px){
+  .footer{
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+  }
+  .footer img{
+    display: none;
+  }
+
+  .footer-contato h3, .footer-informacoes h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .footer-link{
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .footer-copy{
+    font-size: 12px;
+    margin-top: 0px;
+  }
+
+}

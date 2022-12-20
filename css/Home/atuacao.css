@@ -75,6 +75,35 @@
   .img-atuacao img{
     padding: 49px 49px 48px 38px;
   }
+}
 
+@media(max-width:600px){
+  .titulo-atuacao{
+  font-size: 24px;
+   padding: 20px;
+  }
+
+    .img-atuacao{
+    width: 80px;
+    height: 80px;
+  }
+
+  .img-atuacao img{
+    width: 40px;
+    height: 40px;
+    padding: 19px 19px 18px 18px
+  }
+
+  .container ul{
+    margin: auto 200px;
+    gap: 150px;
+  }
+
+  .container h3{
+    width: auto;
+    padding-top: 5px;
+    font-size: 12px;
+    line-height: 18px;
+  }
 
 }

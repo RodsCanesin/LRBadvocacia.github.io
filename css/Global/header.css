@@ -63,9 +63,14 @@
   .header-menu{
     gap: 15px;
   }
-
   .header-menu a{
     letter-spacing: normal;
   }
- 
+}
+
+@media(max-width:600px) {
+  .header img{
+    width: 80%;
+  }
+
 }
