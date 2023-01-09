@@ -1,0 +1,102 @@
+.advogadasobre{
+  background-color: var(--cor-1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.imagemadvogada{ 
+  display: block;
+  margin: 0px auto 15px auto;
+}
+
+.imagemadvogada>img{
+  padding: 0px;
+  height: 400px;
+}
+
+.apresentalana{
+    margin-left: -150px;
+}
+
+.apresentalana>h2{
+  font-family: "Libre Bodoni", serif;
+  font-weight: 500;  
+  font-size: 48px;  
+  line-height: 64px;
+  color: var(--cor-5);
+  padding: 0px 0px 50px 0px;
+}
+
+.apresentalana>p{
+  color: var(--cor-5);
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin-right: 100px;
+}
+
+@media(max-width:1366px){
+  .advogada h2{
+  font-size: 36px;
+  line-height: 48px;
+}
+  .imagemadvogada>img{
+    height: 300px;
+    margin-left: 200px;
+  }
+
+  .apresentalana{
+    margin: 0px;
+  }
+
+  .apresentalana>h2{
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .apresentalana>p{
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 820px) {
+
+  .advogadasobre{
+    grid-template-columns: 1fr;
+  }
+
+  .imagemadvogada>img{
+    height: 200px;
+    margin: auto;
+  }
+
+  .apresentalana>h2{
+    margin: auto;
+    padding-left: 250px;
+  }
+
+  .apresentalana>p{
+    margin: auto;
+    padding: 0px 50px;
+  }
+
+}
+  
+  @media (max-width:600px) {
+    .advogadasobre{
+      grid-template-columns: 1fr;
+     }
+     .apresentalana>h2{
+      padding-left: 50px;
+      padding-top: 20px;
+     }
+     .apresentalana>p{
+      font-size: 16px;
+      line-height: 24px;
+     }
+  
+  }

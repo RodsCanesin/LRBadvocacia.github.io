@@ -12,3 +12,7 @@
 @import "./home/podemos.css";
 @import "./home/advogada.css";
 @import "./home/noticias.css";
+
+/* SOBRE */
+@import "./sobre/escritorio.css";
+@import "./sobre/advogadasobre.css"
