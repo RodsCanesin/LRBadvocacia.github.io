@@ -20,13 +20,20 @@
         <img src="./img/Lana_FINAL-Horizontal 1.svg" alt="Lana Beatriz Rocha">
       </a>
       <nav id="menu" aria-label="primaria">
-        <ul class="header-menu">
-          <li><a href="./home.html">Home</a></li>
-          <li><a href="./sobre.html">Sobre</a></li>
-          <li><a href="./atuacao.html">Atuação</a></li>
-          <li><a href="./conteudo.html">Conteúdo</a></li>
-          <li><a href="./contato.html">Contato</a></li>
-        </ul>
+        <div class="menu-container">
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <ul class="header-menu">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+            <li><a href="./atuacao.html">Atuação</a></li>
+            <li><a href="./conteudo.html">Conteúdo</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+          </ul>
+        </div>
       </nav>
       <nav aria-label="primaria">
         <ul class="social-menu">
@@ -174,17 +181,7 @@
     </div>
 
   </footer>
-  <script>
-    function clickMenu() {
-      if (menu.style.display == 'block') {
-        menu.style.display = 'none'
-      }
-      else {
-        menu.style.display = 'block'
-      }
-    }    
-  </script>
+  <script src="./js/menuburguer.js"></script>
 </body>
-
 
 </html>

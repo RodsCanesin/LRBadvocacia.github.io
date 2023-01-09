@@ -95,8 +95,8 @@
   }
 
   .container ul{
-    margin: auto 200px;
-    gap: 150px;
+    margin: 0px 100px 0px 100px;
+    gap: 80px
   }
 
   .container h3{
