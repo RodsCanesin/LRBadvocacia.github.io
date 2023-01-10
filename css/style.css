@@ -15,4 +15,7 @@
 
 /* SOBRE */
 @import "./sobre/escritorio.css";
-@import "./sobre/advogadasobre.css"
+@import "./sobre/advogadasobre.css";
+
+/* ATUAÇÃO */
+@import "./Atuação/atuacao.css"
