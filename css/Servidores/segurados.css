@@ -1,4 +1,4 @@
-.servidoresprincipal>h1{
+.seguradosprincipal>h1{
   margin: 80px auto;
   font-family: 'Libre Bodoni', serif;
   font-style: normal;
@@ -9,7 +9,7 @@
   color: #484956;
 }
 
-.servidoresprincipal>p{
+.seguradosprincipal>p{
   font-family: 'Catamaran', serif;
   font-style: normal;
   font-weight: 400;
@@ -20,7 +20,7 @@
   margin: -40px 100px 40px 100px;
 }
 
-.servidoresprincipal>ol{
+.seguradosprincipal>ol{
   font-family: 'Catamaran', serif;
   font-style: normal;
   font-weight: 400;
@@ -35,3 +35,4 @@
 strong{
   color: red;
 }
+
