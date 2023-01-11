@@ -1,0 +1,33 @@
+.servidoresprincipal>h1{
+  margin: 80px auto;
+  font-family: 'Libre Bodoni', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 24px;
+  text-align: center;
+  color: #484956;
+}
+
+.servidoresprincipal>p{
+  font-family: 'Catamaran', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #2D3139;
+  margin: -40px 100px 40px 100px;
+}
+
+.servidoresprincipal>ol{
+  font-family: 'Catamaran', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #2D3139;
+  margin: -40px 120px 40px 120px;
+  list-style-type: disc;
+}
