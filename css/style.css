@@ -28,4 +28,7 @@
 
 /* SERVIDORES */
 @import "./Servidores/servidores.css";
-@import "./Servidores/segurados.css"
+@import "./Servidores/segurados.css";
+
+/* TERMOS */
+@import "./Termos/termos.css";

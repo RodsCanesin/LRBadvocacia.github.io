@@ -1,0 +1,66 @@
+.termos{
+  display: grid;
+  grid-template-columns: 7fr 2fr;
+}
+
+.politicaprivacidade{
+  margin: auto 120px
+}
+
+.politicaprivacidade>h1{
+  margin: 80px auto;
+  font-family: 'Catamaran', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 24px;
+  text-align: left;
+  color: #484956;
+}
+
+.politicaprivacidade>p{
+  font-family: 'Catamaran', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  color: #2D2E36;
+  margin: -40px 0px 40px 0px;
+}
+
+.search{
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  width: 250px;
+  height: 25px;
+  background: #FFFFFF;
+  border: 1px solid #9C9C9C;
+  border-radius: 5px;
+  margin: 130px 0px 40px 0px;
+  }
+  
+  .search>span{
+    background-color: #23993D;
+    border: 1px solid #9C9C9C;
+  }
+
+  .termos>aside>h4{
+    font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #2D2E36;
+  }
+
+  .termos>aside>ol{
+    font-family: 'Catamaran', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2D3139;
+  list-style-type: disc;
+  }
+
