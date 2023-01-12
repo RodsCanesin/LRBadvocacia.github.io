@@ -36,3 +36,18 @@ strong{
   color: red;
 }
 
+@media (max-width:600px){
+  .seguradosprincipal>h1{
+    font-size: 28px;
+    margin: 40px auto;
+  }
+
+  .seguradosprincipal>p{
+    text-align: center;
+    margin: auto;
+  }
+
+  .seguradosprincipal>ol{
+    margin: 0px 50px;
+  }
+}

@@ -86,6 +86,7 @@
   .footer{
     grid-template-columns: 1fr 1fr;
     padding-top: 20px;
+  
   }
   .footer img{
     display: none;
@@ -104,6 +105,10 @@
   .footer-copy{
     font-size: 12px;
     margin-top: 0px;
+  }
+
+  .footer-info>ul{
+    margin-left:30px ;
   }
 
 }
