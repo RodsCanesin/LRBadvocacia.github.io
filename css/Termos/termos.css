@@ -64,6 +64,15 @@
   list-style-type: disc;
   }
 
+  @media (max-width:820px){
+    .politicaprivacidade>h1{
+      font-size: 36px;
+      line-height: 48px;
+    }
+    .termos>aside{
+      margin-right: 20px;
+    }
+  }
   @media (max-width:600px){
     .politicaprivacidade>h1{
       font-size: 36px;
