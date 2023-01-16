@@ -91,8 +91,8 @@
       grid-template-columns: 1fr;
      }
      .apresentalana>h2{
-      padding-left: 50px;
-      padding-top: 20px;
+      padding: 20px 0px;
+      text-align: center;
      }
      .apresentalana>p{
       font-size: 16px;

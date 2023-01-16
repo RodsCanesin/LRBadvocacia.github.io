@@ -92,10 +92,11 @@
   .header-menu a{
     letter-spacing: normal;
   }
+
+  .header>a>img{
+    width: 200px
+  }
 }
-
-
-
 
 @media screen and (max-width: 768px) {
   .header-menu {

@@ -56,11 +56,12 @@
     grid-template-columns: 1fr;
    }
    .atuacaoprincipal>div>h1{
-    margin-left: 80px
-
+    margin: 0px;
+    text-align: center;
    }
    .texto-atuacao{
     margin: 0px;
+    font-size: 16px;
+    text-align: center;
    }
-
 }
