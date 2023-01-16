@@ -4,7 +4,7 @@
 }
 
 .politicaprivacidade{
-  margin: auto 120px
+  margin: auto 120px;
 }
 
 .politicaprivacidade>h1{
@@ -74,21 +74,34 @@
     }
   }
   @media (max-width:600px){
-    .politicaprivacidade>h1{
-      font-size: 36px;
-      line-height: 48px;
-      margin: 20px auto;
 
+    aside{
+      display: none;
     }
-  
-    .politicaprivacidade>p{
-      text-align: center;
+
+    .termos{
+      grid-template-columns: 1fr;
+    }
+
+    .politicaprivacidade{
       margin: 0px;
     }
+
+    .politicaprivacidade>h1{
+      text-align: center;
+      font-size: 32px;
+      margin: 20px;
+    }
+
+    .politicaprivacidade>p{
+      font-size: 12px;
+      text-align: justify;
+      line-height: 18px;
+      margin: auto;
+    }
   
-    .search,
-    .termos>aside{
-      display:none
+    .politicaprivacidade p:last-of-type{
+          margin-bottom: 20px;
     }
   }
 

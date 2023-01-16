@@ -43,11 +43,19 @@ strong{
   }
 
   .servidoresprincipal>p{
-    text-align: center;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 18px;
     margin: auto;
+  }
+
+  .servidoresprincipal p:last-of-type{
+        margin-bottom: 20px;
   }
 
   .servidoresprincipal>ol{
     margin: 0px 50px;
+    font-size: 12px;
+    line-height: 18px;
   }
 }

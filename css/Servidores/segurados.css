@@ -39,15 +39,27 @@ strong{
 @media (max-width:600px){
   .seguradosprincipal>h1{
     font-size: 28px;
+    line-height: 32px;
     margin: 40px auto;
   }
 
   .seguradosprincipal>p{
-    text-align: center;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 18px;
     margin: auto;
   }
 
+
+
+  .seguradosprincipal p:last-of-type{
+        margin-bottom: 20px;
+  }
+
+
   .seguradosprincipal>ol{
     margin: 0px 50px;
+    font-size: 12px;
+    line-height: 18px;
   }
 }
