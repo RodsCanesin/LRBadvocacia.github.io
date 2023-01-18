@@ -68,20 +68,76 @@
     <h2 class="titulo-atuacao"> Atuação </h2>
     <ul>
       <li>
-        <a href="servidores.html">
+        <button class="btn-outline-success" onclick="abrirModal('vis-modal')">
           <div class="img-atuacao">
             <img src="./img/icones/staff-symbol-svgrepo-com.svg">
           </div>
           <h3>Servidores Públicos</h3>
-        </a>
+        </button>
+        <div id="vis-modal" class="modal">
+          <div class="conteudo-modal">
+            <div class="cabecalho-modal">
+              <h1> SERVIDORES PÚBLICOS </h1>
+              <span class="cabecalho-modal-fechar" onclick="fecharModal('vis-modal')">X</span>
+            </div>
+            <div class="corpo-modal">
+              <p> Somos especializados no Regime Geral de Previdência Social (RGPS) e no Regime
+                Próprio de servidores públicos civis e militares, visando a concessão e revisão de
+                aposentadorias e benefícios previdenciários. Realizamos assessoria administrativa e judicial na área de previdência dos servidores públicos civis e militares.Para isso oferecemos os seguintes serviços: </p>
+              <br>
+              <p>Consultoria a servidores públicos detentores de cargo efetivo junto aos órgãos de
+                Município, Estado e União, para:</p>
+              <br>
+              <ol>
+                <li> Análise de contribuição;</li>
+                <li> Análise de tempo de serviço;</li>
+                <li> Cumprimento de regras para aposentadoria;</li>
+                <li> Cumprimento de regras de progressão e enquadramento;</li>
+                <li> Obtenção de benefícios como abono de permanência e licença-prêmio;</li>
+                <li> Reconhecimento, averbação e conversão de tempo especial;</li>
+                <li> Aposentadoria especial;</li>
+                <li> Emissão e revisão de certidão de tempo de contribuição.</li>
+              </ol>
+              <br>
+              <p>É muito importante consultar um advogado antes de tomar qualquer decisão relativa a algum procedimento, procure se informar e esteja seguro antes prosseguir. Preencha nosso <a href="contato.html"><strong>formulário</strong></a>, ou veja nossos contatos para conversar com um advogado!</p>
+            </div>
+          </div>
       </li>
       <li>
-        <a href="segurados.html">
+        <button class="btn-outline-success2" onclick="abrirModal2('vis-modal2')">
           <div class="img-atuacao">
             <img src="./img/icones/it-professional-programmer-it-professional-svgrepo-com.svg">
           </div>
           <h3>Segurados e Pensionistas do INSS</h3>
-        </a>
+        </button>
+        <div id="vis-modal2" class="modal2">
+          <div class="conteudo-modal2">
+            <div class="cabecalho-modal2">
+              <h1> SEGURADOS E PENSIONISTAS DO INSS</h1>
+              <span class="cabecalho-modal-fechar2" onclick="fecharModal2('vis-modal2')">X</span>
+            </div>
+            <div class="corpo-modal2">
+              <p> Somos especializados no Regime Geral de Previdência Social (RGPS) e no Regime
+                Próprio de servidores públicos civis e militares, visando a concessão e revisão de
+                aposentadorias e benefícios previdenciários. Realizamos assessoria administrativa e judicial na área de previdência dos servidores públicos civis e militares.Para isso oferecemos os seguintes serviços: </p>
+              <br>
+              <p>Consultoria a servidores públicos detentores de cargo efetivo junto aos órgãos de
+                Município, Estado e União, para:</p>
+              <br>
+              <ol>
+                <li> Análise de contribuição;</li>
+                <li> Análise de tempo de serviço;</li>
+                <li> Cumprimento de regras para aposentadoria;</li>
+                <li> Cumprimento de regras de progressão e enquadramento;</li>
+                <li> Obtenção de benefícios como abono de permanência e licença-prêmio;</li>
+                <li> Reconhecimento, averbação e conversão de tempo especial;</li>
+                <li> Aposentadoria especial;</li>
+                <li> Emissão e revisão de certidão de tempo de contribuição.</li>
+              </ol>
+              <br>
+              <p>É muito importante consultar um advogado antes de tomar qualquer decisão relativa a algum procedimento, procure se informar e esteja seguro antes prosseguir. Preencha nosso <a href="contato.html"><strong>formulário</strong></a>, ou veja nossos contatos para conversar com um advogado!</p>
+            </div>
+          </div>
       </li>
     </ul>
   </article>
@@ -142,6 +198,7 @@
 
   </footer>
   <script src="./js/menuburguer.js"></script>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
