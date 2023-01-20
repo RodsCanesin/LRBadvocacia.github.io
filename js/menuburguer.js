@@ -1,4 +1,4 @@
-const burger = document.querySelector('.burger');
+/*const burger = document.querySelector('.burger');
 const menu = document.querySelector('.header-menu');
 
 burger.addEventListener('click', () => {
@@ -11,4 +11,15 @@ document.addEventListener('click', (event) => {
     menu.classList.remove('open');
     burger.classList.remove('change');
   }
-});
+});*/
+
+function menuShow() {
+  let menuMobile = document.querySelector('.mobile-menu');
+  if (menuMobile.classList.contains('open')) {
+    menuMobile.classList.remove('open');
+    document.querySelector('.icon').src = './img/icones/MenuBurger.svg';
+  } else {
+    menuMobile.classList.add('open');
+    document.querySelector('.icon').src = './img/icones/fecharBurger.svg';
+  }
+}
