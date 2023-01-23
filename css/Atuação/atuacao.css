@@ -89,6 +89,9 @@
     display: inline;
   }
 
+  .under{
+    display: none;
+  }
 
 @media (max-width: 1366px) {
   .texto-atuacao{
@@ -102,7 +105,14 @@
   }
 }
 
-.corpo-modal, .corpomodal2{
+.corpo-modal{
+  padding: 10px 10px;
+  color: var(--cor-4);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.corpomodal2{
   padding: 10px 10px;
   color: var(--cor-4);
   font-size: 16px;
@@ -126,7 +136,7 @@
 .corpo-modal, .corpo-modal2{
   padding: 30px 10px;
   color: var(--cor-4);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
 }
 }
@@ -144,4 +154,15 @@
     font-size: 16px;
     text-align: center;
    }
-}
+   .cabecalho-modal>h1, .cabecalho-modal2>h1{
+    font-size: 18px;
+   }
+  .corpo-modal, .corpo-modal2{
+    color: var(--cor-4);
+    font-size: 10px;
+    line-height: 16px;
+    border: 1px solid red;
+    padding: auto;
+    margin: 0px;
+  }
+ }
