@@ -59,19 +59,19 @@
 }
 
 .contato-meios a:first-child {
-  background: url("../../img/icones/email.svg") no-repeat 0px 2px;
+  background: url("../../img/icones/email.svg") no-repeat 0px 0px;
   margin-bottom: 30px;
 }
 
 .contato-meios a:nth-child(2) {
-  background: url("../../img/icones/telefone.svg") no-repeat 0px 2px;
+  background: url("../../img/icones/telefone.svg") no-repeat 0px 0px;
   margin-bottom: 30px;
 }
 
 .contato-horario {
-  margin-bottom: 32px;
+  margin-bottom: 30px;
   padding-left: 28px;
-  background: url("../../img/icones/horario.svg") no-repeat 0px 2px;
+  background: url("../../img/icones/horario.svg") no-repeat 0px 0px;
 }
 
 .contato-horario p {

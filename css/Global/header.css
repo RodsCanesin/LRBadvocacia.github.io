@@ -100,7 +100,9 @@ header{
   .open>.social-menu{
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
+    max-width: fit-content;
+    margin: auto;
   }
 }
 
